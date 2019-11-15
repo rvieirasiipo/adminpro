@@ -52,6 +52,7 @@ onChanges(val:number)
   //elemHtml.value = this.progreso;8
 
   this.txtProgress.nativeElement.value = this.progreso;
+  this.txtProgress.nativeElement.focus();
 
   this.cambioValor.emit(this.progreso );
 }
